@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prgen"
+version = "0.1.0"
+description = "Generate AI commit messages and maintain PR notes outside the repo"
+requires-python = ">=3.9"
+dependencies = [
+  "google-genai>=0.8.0",
+]
+
+[project.scripts]
+prgen = "prgen.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
