@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/prgen/__init__.py
+src/prgen/cli.py
+src/prgen/gemini.py
+src/prgen/git_tools.py
+src/prgen/notes.py
+src/prgen.egg-info/PKG-INFO
+src/prgen.egg-info/SOURCES.txt
+src/prgen.egg-info/dependency_links.txt
+src/prgen.egg-info/entry_points.txt
+src/prgen.egg-info/requires.txt
+src/prgen.egg-info/top_level.txt
